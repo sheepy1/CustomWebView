@@ -2,7 +2,7 @@
 
 ![效果图](https://github.com/sheepy1/CustomWebView/raw/master/Logo/show.gif)
 
-右下角的收藏按钮在手势向上时隐藏（飞出屏幕），手势向下时出现。
+加载网页时显示加载图标，加载完成后消失。右下角的收藏按钮在手势向上时隐藏（飞出屏幕），手势向下时出现。
 
 使用：
   *将WebViewCtrl.swift复制到项目中
