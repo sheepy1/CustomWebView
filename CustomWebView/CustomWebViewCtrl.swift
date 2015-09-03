@@ -17,6 +17,10 @@ class CustomWebViewCtrl: WebViewCtrl {
 //        icon = "plus_icon"
     }
 
+    override func clicked(sender: UIButton) {
+        println("clicked")
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

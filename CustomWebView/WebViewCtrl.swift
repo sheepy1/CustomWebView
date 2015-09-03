@@ -58,6 +58,7 @@ class WebViewCtrl: UIViewController, UIWebViewDelegate, UIScrollViewDelegate {
         
         //初始化收藏按钮
         favoriteButton.frame = CGRectMake(viewWidth * 4/5, viewHeight * 4/5, viewWidth/8, viewWidth/8)
+        favoriteButton.addTarget(self, action: "clicked:", forControlEvents: .TouchUpInside)
         webView.addSubview(favoriteButton)
         favoriteBtnCenterY = favoriteButton.center.y
     }
@@ -110,6 +111,10 @@ class WebViewCtrl: UIViewController, UIWebViewDelegate, UIScrollViewDelegate {
         default: break
         }
 
+    }
+    
+    func clicked(sender: UIButton) {
+        //Todo
     }
     
     override func didReceiveMemoryWarning() {
