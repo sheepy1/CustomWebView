@@ -1,6 +1,6 @@
 # CustomWebView
 
-![效果图](https://github.com/sheepy1/CustomWebView/new/master/Logo/show.gif)
+![效果图](https://github.com/sheepy1/CustomWebView/raw/master/Logo/show.gif)
 
 右下角的收藏按钮在手势向上时隐藏（飞出屏幕），手势向下时出现。
 
