@@ -8,11 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CustomWebViewCtrl: WebViewCtrl {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+//        url = "http://www.jianshu.com/p/f41bf33fac0b"
+//        icon = "plus_icon"
     }
 
     override func didReceiveMemoryWarning() {
